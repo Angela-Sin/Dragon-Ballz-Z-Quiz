@@ -74,10 +74,17 @@ const showQuestions = () => {
     choiceDiv.textContent = currentChoice;
     choiceDiv.classList.add("choice");
     choicesBox.appendChild(choiceDiv);
+
+      choiceDiv.addEventListener("click", () => {
+      if (choiceDiv.classList.contains("selected")) {
+        choiceDiv.classList.remove("selected");
+      } else {
+        choiceDiv.classList.add("selected");
     }
   //console.log(questionDetails);
-
+});
 }
+}   
 
 showQuestions();
 nextBtn.addEventListener('click', () =>{
