@@ -57,3 +57,11 @@ const quiz = [
     answer: "A tail",
   },
 ];
+
+const showQuestions = () =>{
+    console.log("Question");
+}
+
+nextBtn.addEventListener('click', () =>{
+    showQuestions();
+});
