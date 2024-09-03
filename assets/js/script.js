@@ -63,9 +63,18 @@ const quiz = [
 let currentQuestionIndex = 0;
 
 // Arrow Function to Show Questions
-const showQuestions = () =>{
+const showQuestions = () => {
   const questionDetails = quiz[currentQuestionIndex];
-  console.log(questionDetails);
+  questionBox.textContent = questionDetails.question;
+
+   for (let i = 0; i < questionDetails.choices.length; i++) {
+    const currentChoice = questionDetails.choices[i];
+    const choiceDiv = document.createElement("div");
+    choiceDiv.textContent = currentChoice;
+    choiceDiv.classList.add("choice");
+    choicesBox.appendChild(choiceDiv);
+  //console.log(questionDetails);
+}
 }
 
 nextBtn.addEventListener('click', () =>{
