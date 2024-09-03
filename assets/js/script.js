@@ -88,15 +88,20 @@ const showQuestions = () => {
 // Function to check answers
 const checkAnswer = () => {
   const selectedChoice = document.querySelector(".choice.selected");
-console.log(selectedChoice);
+  if (selectedChoice.textContent === quiz[currentQuestionIndex].answer) {
+    alert("Correct Answer!");
+    } else {
+        alert("Wrong answer");
+    }
+//console.log(selectedChoice);
 }
 
 showQuestions();
 nextBtn.addEventListener('click', () =>{
     checkAnswer();
-    if(currentQuestionIndex < quiz.length){
-        currentQuestionIndex++;
-        showQuestions();
-    }
+   // if(currentQuestionIndex < quiz.length){
+   //     currentQuestionIndex++;
+   //     showQuestions();
+   //}
     
 });
