@@ -25,3 +25,19 @@ body {
   border-radius: 8px;
   text-align: center;
 }
+
+.container {
+      width: 80%;
+  max-width: 850px;
+  padding: 30px;
+  background-color: #000000b8;
+  color: #fff;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}

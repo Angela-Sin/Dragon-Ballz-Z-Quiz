@@ -67,16 +67,23 @@ const showQuestions = () => {
   const questionDetails = quiz[currentQuestionIndex];
   questionBox.textContent = questionDetails.question;
 
+   choicesBox.textContent = "";
    for (let i = 0; i < questionDetails.choices.length; i++) {
     const currentChoice = questionDetails.choices[i];
     const choiceDiv = document.createElement("div");
     choiceDiv.textContent = currentChoice;
     choiceDiv.classList.add("choice");
     choicesBox.appendChild(choiceDiv);
+    }
   //console.log(questionDetails);
-}
+
 }
 
+showQuestions();
 nextBtn.addEventListener('click', () =>{
-    showQuestions();
+    if(currentQuestionIndex < quiz.length){
+        currentQuestionIndex++;
+        showQuestions();
+    }
+    
 });
