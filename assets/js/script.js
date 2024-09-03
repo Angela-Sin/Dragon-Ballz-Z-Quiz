@@ -58,8 +58,14 @@ const quiz = [
   },
 ];
 
+
+// Making Variables
+let currentQuestionIndex = 0;
+
+// Arrow Function to Show Questions
 const showQuestions = () =>{
-    console.log("Question");
+  const questionDetails = quiz[currentQuestionIndex];
+  console.log(questionDetails);
 }
 
 nextBtn.addEventListener('click', () =>{
