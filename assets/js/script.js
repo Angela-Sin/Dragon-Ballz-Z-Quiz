@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const questionBox = document.querySelector(".question");
 const choicesBox = document.querySelector(".choices");
 const nextBtn = document.querySelector(".nextBtn");
-const score = document.querySelector(".score");
+const scoreCont = document.querySelector(".scoreCont");
 
 //Question list
 const quiz = [
@@ -62,6 +62,7 @@ const quiz = [
 
 // Making Variables
 let currentQuestionIndex = 0;
+let score = 0.
 
 // Arrow Function to Show Questions
 const showQuestions = () => {
@@ -91,18 +92,24 @@ const checkAnswer = () => {
   const selectedChoice = document.querySelector(".choice.selected");
   if (selectedChoice.textContent === quiz[currentQuestionIndex].answer) {
     alert("Correct Answer!");
+    score++;
     } else {
         alert("Wrong answer");
+    }
+    if (currentQuestionIndex < quiz.length) {
+      currentQuestionIndex++;
+      showQuestions();
+    } else {
+      showScore();
     }
 //console.log(selectedChoice);
 }
 
+//Show score function
 showQuestions();
+scoreCard.textContent = `You Scored ${score} out of ${quiz.length}!`;
 nextBtn.addEventListener('click', () =>{
     checkAnswer();
-   // if(currentQuestionIndex < quiz.length){
-   //     currentQuestionIndex++;
-   //     showQuestions();
-   //}
+    
     
 });
