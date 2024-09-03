@@ -41,3 +41,23 @@ body {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
+
+.container .question {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.container .choices {
+  margin-top: 20px;
+}
+
+.choice {
+  font-size: 20px;
+  background-color: #eeeeee95;
+  color: #000;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  cursor: pointer;
+}
