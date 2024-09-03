@@ -94,8 +94,9 @@ const checkAnswer = () => {
     alert("Correct Answer!");
     score++;
     } else {
-        alert("Wrong answer");
+        alert("Wrong Answer!");
     }
+    currentQuestionIndex++;
     if (currentQuestionIndex < quiz.length) {
       currentQuestionIndex++;
       showQuestions();
@@ -105,9 +106,17 @@ const checkAnswer = () => {
 //console.log(selectedChoice);
 }
 
+
+
 //Show score function
+
+const showScore = () => {
+  questionBox.textContent = "";
+  choicesBox.textContent = "";
+scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
+} 
+
 showQuestions();
-scoreCard.textContent = `You Scored ${score} out of ${quiz.length}!`;
 nextBtn.addEventListener('click', () =>{
     checkAnswer();
     
