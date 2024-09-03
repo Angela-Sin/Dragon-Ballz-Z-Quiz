@@ -81,13 +81,19 @@ const showQuestions = () => {
       } else {
         choiceDiv.classList.add("selected");
     }
-  //console.log(questionDetails);
 });
 }
 }   
 
+// Function to check answers
+const checkAnswer = () => {
+  const selectedChoice = document.querySelector(".choice.selected");
+console.log(selectedChoice);
+}
+
 showQuestions();
 nextBtn.addEventListener('click', () =>{
+    checkAnswer();
     if(currentQuestionIndex < quiz.length){
         currentQuestionIndex++;
         showQuestions();
