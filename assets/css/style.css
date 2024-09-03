@@ -9,10 +9,12 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url(../img/Backround.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  place-items: center;
 }
 
 .name {
