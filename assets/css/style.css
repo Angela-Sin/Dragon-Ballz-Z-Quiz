@@ -201,7 +201,7 @@ form textarea {
   }
 
   .contactBtn {
-    width: 40%;
+    width: 60%;
   }
 
   .messageBtn {
@@ -218,6 +218,10 @@ form textarea {
 
   .form {
     height: 600px;
+  }
+
+ .contactBtn {
+    width: 65%;
   }
 
 
