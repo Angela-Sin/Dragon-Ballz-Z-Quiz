@@ -23,6 +23,8 @@ body {
   background-color: #000000a8;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
 }
 
 
@@ -167,9 +169,10 @@ form textarea {
 }
 
 .rules {
-    width: 100%;
+        width: 80%;
+  max-width: 850px;
   padding: 30px;
-  background-color: #000000a8;
+  background-color: #000000b8;
   color: #fff;
   text-align: center;
 }
