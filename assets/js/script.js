@@ -114,10 +114,16 @@ const showScore = () => {
   questionBox.textContent = "";
   choicesBox.textContent = "";
 scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
+nextBtn.textContent = "Play Again";
 } 
 
 showQuestions();
 nextBtn.addEventListener('click', () =>{
+  const selectedChoice = document.querySelector('.choice.selected');
+  if(!selectedChoice && nextBtn.textContent == "Next"){
+    alert("Select Answer");
+    return;
+  } 
     checkAnswer();
     
     
