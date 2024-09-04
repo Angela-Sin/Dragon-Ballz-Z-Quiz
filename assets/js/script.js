@@ -136,6 +136,16 @@ const displayAlert = (msg) => {
   }, 1000);
 };
 
+
+// Event Listener to Start Button
+startBtn.addEventListener("click", () => {
+  startBtn.style.display = "none";
+  container.style.display = "block";
+
+  startQuiz();
+});
+
+
 showQuestions();
 nextBtn.addEventListener("click", () => {
   const selectedChoice = document.querySelector(".choice.selected");
