@@ -24,8 +24,8 @@ const quiz = [
   },
   //{
     //question: "Q.: What do all the dragon balls have inside?",
-    //choices: ["Crystals", "Stars", "Dragons"],
-    //answer: "Stars",
+   // choices: ["Crystals", "Stars", "Dragons"],
+   // answer: "Stars",
   //},
   //{
     //question: "Q.: Krillin trained under",
@@ -134,6 +134,9 @@ nextBtn.textContent = "Play Again";
 const displayAlert = (msg) => {
   alert.style.display = "block";
   alert.textContent = msg;
+   setTimeout(() =>{
+  alert.style.display = "none";
+  }, 1000);
 }
 
 showQuestions();
