@@ -167,5 +167,13 @@ form textarea {
   .container .question {
     font-size: 22px;
   }
+
+   .startBtn {
+    width: 40%;
+  }
+
+  .contactBtn {
+    width: 40%;
+  }
 }
 
