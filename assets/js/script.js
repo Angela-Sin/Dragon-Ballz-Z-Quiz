@@ -6,6 +6,7 @@ const scoreCont = document.querySelector(".scoreCont");
 const alert = document.querySelector(".alert");
 const startBtn = document.querySelector(".startBtn");
 const exitBtn = document.querySelector(".exitBtn");
+const contactBtn = document.querySelector(".contactBtn");
 
 //Question list
 const quiz = [
