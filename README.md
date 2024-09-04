@@ -87,7 +87,7 @@ Dragon Ball Z quiz PP2
 
 - ### Color Pallete
 
-  ![Pallete](./assets/media/Screenshot%202024-08-18%20143551.png)
+  ![Pallete](./assets/media/game.png)
 
 
 - ## Background
