@@ -23,6 +23,17 @@
 
 <div class="_container" id="modal_container">
     <div class="modal">
+        <form onsubmit="sendEmail(); reset(); return false;">
+        
+            <h3>Send Us A Message</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Enter Your Email here" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            <textarea name="message" id="message" rows="4" placeholder="Write your message here..." required></textarea>
+            <button type="submit" aria-label="Click to send message">Send Message</button>
+        
+        
+        </form>
 
     </div>
 
