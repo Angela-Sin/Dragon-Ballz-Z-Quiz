@@ -121,6 +121,18 @@ button:hover {
   text-align: center;
 }
 
+form {
+height: 500px;
+     width: 100%;
+  max-width: 850px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000b8;
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   .container {
     width: 100%;
