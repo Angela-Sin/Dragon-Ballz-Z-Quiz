@@ -115,7 +115,13 @@ button:hover {
   display: none;
 }
 
-.startBtn {
+.startBtn  {
+  width: 15%;
+  padding-block: 20px;
+  text-align: center;
+}
+
+.contactBtn {
   width: 15%;
   padding-block: 20px;
   text-align: center;
@@ -131,6 +137,7 @@ height: 500px;
   background-color: #000000b8;
   color: #fff;
   text-align: center;
+  display: none;
 }
 
 form h3 {
