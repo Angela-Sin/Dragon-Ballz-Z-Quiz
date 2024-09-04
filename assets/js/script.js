@@ -7,6 +7,7 @@ const alert = document.querySelector(".alert");
 const startBtn = document.querySelector(".startBtn");
 const exitBtn = document.querySelector(".exitBtn");
 const contactBtn = document.querySelector(".contactBtn");
+const form = document.querySelector(".form");
 
 //Question list
 const quiz = [
@@ -143,6 +144,7 @@ const displayAlert = (msg) => {
 startBtn.addEventListener("click", () => {
   startBtn.style.display = "none";
   container.style.display = "block";
+  contactBtn.style.display = "none";
 
   showQuestions();
 });
@@ -150,6 +152,7 @@ startBtn.addEventListener("click", () => {
 exitBtn.addEventListener("click", () => {
   container.style.display = "none";
   startBtn.style.display = "block";
+  contactBtn.style.display = "block";
 
   showQuestions();
 });
@@ -174,4 +177,12 @@ nextBtn.addEventListener("click", () => {
   } else {
     checkAnswer();
   }
+});
+
+// Event Listener to Contact Button
+contactBtn.addEventListener("click", () => { //Have an issue with a modal
+  contactBtn.style.display = "none";
+  form.style.display = "block";
+  startBtn.style.display = "none";
+
 });
