@@ -3,6 +3,7 @@ const questionBox = document.querySelector(".question");
 const choicesBox = document.querySelector(".choices");
 const nextBtn = document.querySelector(".nextBtn");
 const scoreCont = document.querySelector(".scoreCont");
+const allert = document.querySelector(".allert");
 
 //Question list
 const quiz = [
@@ -92,10 +93,12 @@ const showQuestions = () => {
 const checkAnswer = () => {
   const selectedChoice = document.querySelector(".choice.selected");
   if (selectedChoice.textContent === quiz[currentQuestionIndex].answer) {
-    alert("Correct Answer!");
+    //alert("Correct Answer!");
+    displayAlert("Correct Answer!");
     score++;
     } else {
-        alert("Wrong Answer!");
+        //alert("Wrong Answer!");
+        displayAlert("Wrong Answer!");
     }
     currentQuestionIndex++;
     if (currentQuestionIndex < quiz.length) {
@@ -125,6 +128,12 @@ nextBtn.textContent = "Play Again";
 //});
 
 } 
+
+// Function to Show Alert
+const displayAlert = (msg) => {
+  alert.style.display = "block";
+  alert.textContent = msg;
+}
 
 showQuestions();
 nextBtn.addEventListener('click', () =>{
