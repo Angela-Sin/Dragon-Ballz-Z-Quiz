@@ -62,7 +62,8 @@ const quiz = [
 
 // Making Variables
 let currentQuestionIndex = 0;
-let score = 0.
+let score = 0;
+let quizOver = false;
 
 // Arrow Function to Show Questions
 const showQuestions = () => {
@@ -102,6 +103,7 @@ const checkAnswer = () => {
       showQuestions();
     } else {
       showScore();
+      quizOver = true;
     }
 //console.log(selectedChoice);
 }
@@ -115,23 +117,33 @@ const showScore = () => {
   choicesBox.textContent = "";
 scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
 nextBtn.textContent = "Play Again";
-nextBtn.addEventListener('click', ()=>{
-currentQuestionIndex = 0;
-showQuestions();
-nextBtn.textContent = "Next";
-scoreCont.textContent = "";
-});
+//nextBtn.addEventListener('click', ()=>{
+//currentQuestionIndex = 0;
+//showQuestions();
+//nextBtn.textContent = "Next";
+//scoreCont.textContent = "";
+//});
 
 } 
 
 showQuestions();
 nextBtn.addEventListener('click', () =>{
   const selectedChoice = document.querySelector('.choice.selected');
-  if(!selectedChoice && nextBtn.textContent == "Next"){
+  if(!selectedChoice && nextBtn.textContent === "Next"){
     alert("Select Answer");
     return;
   } 
+  if(quizOver){
+    //currentQuestionIndex = 0; 
+    nextBtn.textContent = "Next";
+    scoreCont.textContent = "";
+    currentQuestionIndex = 0;
+    showQuestions();
+    quizOver = false;
+    score = 0;
+  }
+  else{
     checkAnswer();
-    
+  } 
     
 });
