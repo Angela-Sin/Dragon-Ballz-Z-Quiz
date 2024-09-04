@@ -143,14 +143,14 @@ startBtn.addEventListener("click", () => {
   startBtn.style.display = "none";
   container.style.display = "block";
 
-  startQuiz();
+  showQuestions();
 });
 
 exitBtn.addEventListener("click", () => {
   container.style.display = "none";
   startBtn.style.display = "block";
 
-  startQuiz();
+  showQuestions();
 });
 
 showQuestions();
