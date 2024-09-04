@@ -3,7 +3,7 @@ const questionBox = document.querySelector(".question");
 const choicesBox = document.querySelector(".choices");
 const nextBtn = document.querySelector(".nextBtn");
 const scoreCont = document.querySelector(".scoreCont");
-const allert = document.querySelector(".allert");
+const alert = document.querySelector(".alert");
 
 //Question list
 const quiz = [
@@ -119,6 +119,7 @@ const showScore = () => {
   questionBox.textContent = "";
   choicesBox.textContent = "";
 scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
+ displayAlert("You have completed this quiz!");
 nextBtn.textContent = "Play Again";
 //nextBtn.addEventListener('click', ()=>{
 //currentQuestionIndex = 0;
@@ -139,7 +140,8 @@ showQuestions();
 nextBtn.addEventListener('click', () =>{
   const selectedChoice = document.querySelector('.choice.selected');
   if(!selectedChoice && nextBtn.textContent === "Next"){
-    alert("Select Answer");
+    //alert("Select Answer");
+    displayAlert("Select Answer");
     return;
   } 
   if(quizOver){
