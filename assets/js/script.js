@@ -117,6 +117,9 @@ scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
 nextBtn.textContent = "Play Again";
 nextBtn.addEventListener('click', ()=>{
 currentQuestionIndex = 0;
+showQuestions();
+nextBtn.textContent = "Next";
+scoreCont.textContent = "";
 });
 
 } 
