@@ -17,8 +17,12 @@ body {
   place-items: center;
 }
 
-.name {
- 
+.logo {
+  width: 100%;
+  padding: 30px;
+  background-color: #000000a8;
+  color: #fff;
+  text-align: center;
 }
 
 
@@ -156,7 +160,17 @@ form textarea {
     font-size: 16px;
 }
 
+.messageBtn {
+  width: 15%;
+  padding-block: 20px;
+  text-align: center;
+}
 @media screen and (max-width: 900px) {
+
+  .logo {
+    padding: 10px;
+  }
+
   .container {
     width: 100%;
     
@@ -175,5 +189,27 @@ form textarea {
   .contactBtn {
     width: 40%;
   }
+
+  .messageBtn {
+    width: 40%;
+  }
 }
 
+@media screen and (max-width: 600px) {
+
+  .btn {
+    padding: 9px 15px;
+    margin: 8px auto 0 auto;
+  }
+
+  .form {
+    height: 600px;
+  }
+
+  form h3 {
+ font-size: 25px;
+    margin: 25px 15px 5px;
+}
+
+  
+}
