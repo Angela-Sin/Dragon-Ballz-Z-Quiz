@@ -1,6 +1,6 @@
 # Game
 Dragon Ball Z quiz PP2
-
+![Responsivness](./assets/media/responcive.png)
 
 ## About me
 
