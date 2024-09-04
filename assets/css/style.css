@@ -99,3 +99,13 @@ button:hover {
   top: 0;
   display: none;
 }
+
+.rules {
+    width: 100%;
+  padding: 20px;
+  background-color: #000000a8;
+  color: #fff;
+  text-align: center;
+}
+
+}
