@@ -5,6 +5,7 @@ const nextBtn = document.querySelector(".nextBtn");
 const scoreCont = document.querySelector(".scoreCont");
 const alert = document.querySelector(".alert");
 const startBtn = document.querySelector(".startBtn");
+const exitBtn = document.querySelector(".exitBtn");
 
 //Question list
 const quiz = [
@@ -145,6 +146,12 @@ startBtn.addEventListener("click", () => {
   startQuiz();
 });
 
+exitBtn.addEventListener("click", () => {
+  container.style.display = "none";
+  startBtn.style.display = "block";
+
+  startQuiz();
+});
 
 showQuestions();
 nextBtn.addEventListener("click", () => {
