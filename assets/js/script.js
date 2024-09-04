@@ -4,6 +4,7 @@ const choicesBox = document.querySelector(".choices");
 const nextBtn = document.querySelector(".nextBtn");
 const scoreCont = document.querySelector(".scoreCont");
 const alert = document.querySelector(".alert");
+const startBtn = document.querySelector(".startBtn");
 
 //Question list
 const quiz = [

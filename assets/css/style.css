@@ -30,6 +30,7 @@ body {
   background-color: #000000b8;
   color: #fff;
   text-align: center;
+  display: none;
 }
 
 .container h1 {
@@ -95,7 +96,6 @@ button:hover {
   background-color: #006400;
   color: #fff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ button:hover {
 
 .startBtn {
   width: 15%;
-  height: 20px;
+  padding-block: 20px;
   text-align: center;
 }
 
