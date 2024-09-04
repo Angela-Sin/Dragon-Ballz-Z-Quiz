@@ -133,6 +133,20 @@ height: 500px;
   text-align: center;
 }
 
+form h3 {
+ font-size: 30px;
+    color: white;
+    margin: 30px 20px 10px;
+}
+
+form input,
+form textarea {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.734);
+    font-size: 16px;
+}
+
 @media screen and (max-width: 900px) {
   .container {
     width: 100%;
