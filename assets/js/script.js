@@ -156,6 +156,7 @@ exitBtn.addEventListener("click", () => {
   container.style.display = "none";
   startBtn.style.display = "block";
   contactBtn.style.display = "block";
+  logo.style.display = "block";
 
   showQuestions();
 });
