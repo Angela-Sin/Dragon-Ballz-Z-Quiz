@@ -76,9 +76,11 @@ Dragon Ball Z quiz PP2
 
 - ### Wireframes
 
-  - Landing Page - ![Wireframes]
+Feor all Media queries Wireframes are the same!
 
-  - Quiz-game Page - ![Wireframes]
+  - Landing Page - ![Wireframes](./assets/media/landing.png)
+
+  - Quiz-game Page - ![Wireframes](./assets/media/gamepg.png)
   
 
   - Contact Page  - ![Wireframe]
