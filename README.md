@@ -186,11 +186,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | Source                                                                                                               | Location       | Notes                        |
 | -------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------- |
 | [YouTube](https://www.youtube.com/)                                                                                  | Acros website  | Tutorial for troubleshouting |
-| [YouTube](https://webaim.org/)                                                                                       | Acros website  | Contrast Checker             |
+| [WebAIM ](https://webaim.org/)                                                                                       | Acros website  | Contrast Checker             |
 | [Fonts Google](https://fonts.google.com/)                                                                            | Across website | Font selection               |
 | [Coolors](https://coolors.co/)                                                                                       | Across website | Colour palette selection     |
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
-
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
 
 
