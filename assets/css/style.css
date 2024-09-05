@@ -165,8 +165,16 @@ form h3 {
     margin: 30px 20px 10px;
 }
 
-form input,
+form input
+ {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.734);
+    font-size: 16px;
+}
+
 form textarea {
+  width: 600px;
     margin: 10px 20px;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.734);
@@ -174,7 +182,7 @@ form textarea {
 }
 
 .messageBtn {
-  width: 15%;
+  width: 20%;
   padding-block: 20px;
   text-align: center;
 }
@@ -217,7 +225,9 @@ form textarea {
   .messageBtn {
     width: 40%;
   }
+
 }
+
 
 @media screen and (max-width: 600px) {
 
@@ -234,6 +244,11 @@ form textarea {
     width: 65%;
   }
 
+   form textarea {
+   width:auto;
 
-  
+
 }
+   
+}
+  
