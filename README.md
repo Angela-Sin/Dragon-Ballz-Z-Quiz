@@ -1,4 +1,4 @@
-# Game
+# Dragon Ball Z quiz Game
 Dragon Ball Z quiz PP2
 ![Responsivness](./assets/media/responcive.png)
 
@@ -8,7 +8,7 @@ Dragon Ball Z quiz PP2
 ## Project Overview
 
 
-## User Interface - In Game UI
+## User Interface - In-Game UI
 
 - **As a player, I want a clear and intuitive user interface that shows my score, lives, and level progress so that I can easily understand my current game status.**
 
@@ -19,7 +19,7 @@ Dragon Ball Z quiz PP2
 
   - Include a credits screen at the end of the game.
 
-- **As a player, I want a menu in game that gives me the options.**
+- **As a player, I want a menu in a game that gives me options.**
 
   - 
   - 
@@ -70,20 +70,20 @@ Dragon Ball Z quiz PP2
 
 - **As a developer, I need to ensure that the game's visual style matches the retro theme so that the game maintains a consistent aesthetic.**
   - Visual elements such as backgrounds, sprites, and UI components adhere to the 8-bit gaming style (e.g., pixel art).
-  - The colour palette and graphical effects should reflect a classic gaming era.
+  - The color palette and graphical effects should reflect a classic gaming era.
 
 ## Design
 
 - ### Wireframes
 
-Feor all Media queries Wireframes are the same!
+For all Media queries, Wireframes are the same!
 
-  - Landing Page - ![Wireframes](./assets/media/landing.png)
+  - Landing Page -![Wireframes](./assets/media/landing.png)
 
-  - Quiz-game Page - ![Wireframes](./assets/media/gamepg.png)
+  - Quiz-game Page -![Wireframes](./assets/media/gamepg.png)
   
 
-  - Contact Page  - ![Wireframe]
+  - Contact Page  -![Wireframe]
 
 
 
@@ -120,16 +120,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, and Safari browsers.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Future addings
+### Future adding
 
 - 
 
 ## Getting Started
 
-First, fork the repository. Then, go into your prefered code editor.
+First, fork the repository. Then, go into your preferred code editor.
 
 1. git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY]
 2. cd game
@@ -143,19 +143,19 @@ First, fork the repository. Then, go into your prefered code editor.
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+2. At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
+   - Alternatively, Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now-published site [link](https://github.com) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not the top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
@@ -186,7 +186,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | Source                                                                                                               | Location       | Notes                        |
 | -------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------- |
 | [YouTube](https://www.youtube.com/)                                                                                  | Acros website  | Tutorial for troubleshouting |
-
+| [YouTube](https://webaim.org/)                                                                                       | Acros website  | Contrast Checker             |
 | [Fonts Google](https://fonts.google.com/)                                                                            | Across website | Font selection               |
 | [Coolors](https://coolors.co/)                                                                                       | Across website | Colour palette selection     |
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
@@ -196,6 +196,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-- Special mention is also deserved my mentor Medale Oluwafemi. 
-- As tutoring team asweal.
+- Special mention is also deserved by my mentor Medale Oluwafemi. 
+- As a tutoring team as well.
 
