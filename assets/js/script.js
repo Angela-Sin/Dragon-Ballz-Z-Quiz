@@ -156,6 +156,16 @@ const startTimer = () => {
   timeLeft--;
   if(timeLeft === 0){
     const confirmUser = confirm("Time out. Do You wish to continue?");
+    if(confirmUser){
+      timeLeft = 20;
+      showQuestions();
+
+    }
+    else{
+      startBtn.style.display ="block";
+      container.style.display = "none";
+      return;
+    }
 
   }
   }
@@ -164,7 +174,7 @@ const startTimer = () => {
 
 // Function to Start Quiz
 const startQuiz = () => {
-  timeLeft = 20;
+  showQuestions();
   
 };
 
