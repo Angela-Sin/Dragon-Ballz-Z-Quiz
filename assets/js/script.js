@@ -164,6 +164,9 @@ const startTimer = () => {
     else{
       startBtn.style.display ="block";
       container.style.display = "none";
+        contactBtn.style.display = "block";
+        logo.style.display = "block";
+        rules.style.display = "block";
       return;
     }
 
@@ -223,7 +226,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 // Event Listener to Contact Button
-contactBtn.addEventListener("click", () => { //Have an issue with a modal
+contactBtn.addEventListener("click", () => { 
   contactBtn.style.display = "none";
   form.style.display = "block";
   startBtn.style.display = "none";
