@@ -73,6 +73,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let quizOver = false;
 let timeLeft = 20;
+let timerID = null;
 
 // Arrow Function to Show Questions
 const showQuestions = () => {
@@ -114,11 +115,13 @@ const checkAnswer = () => {
     //alert("Wrong Answer!");
     displayAlert("Wrong Answer!");
   }
+  timeLeft = 20;
   currentQuestionIndex++;
   if (currentQuestionIndex < quiz.length) {
     showQuestions();
   } else {
     showScore();
+    stopTimer();
     quizOver = true;
   }
   //console.log(selectedChoice);
@@ -132,6 +135,7 @@ const showScore = () => {
   scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
   displayAlert("You have completed this quiz!");
   nextBtn.textContent = "Play Again";
+  timer.style.display = "none";
   //nextBtn.addEventListener('click', ()=>{
   //currentQuestionIndex = 0;
   //showQuestions();
@@ -172,15 +176,22 @@ const startTimer = () => {
 
   }
   }
-  setInterval(countDown, 1000);
+  timerID = setInterval(countDown, 1000);
 }
+
+
 
 // Function to Start Quiz
 const startQuiz = () => {
+  timeLeft = 20;
   showQuestions();
   
 };
 
+// Function to Stop Timer
+const stopTimer = () => {
+  clearInterval(timerID);
+};
 
 // Event Listener to Start Button
 startBtn.addEventListener("click", () => {
