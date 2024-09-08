@@ -5,6 +5,7 @@ const nextBtn = document.querySelector(".nextBtn");
 const scoreCont = document.querySelector(".scoreCont");
 const alert = document.querySelector(".alert");
 const startBtn = document.querySelector(".startBtn");
+const timer = document.querySelector(".timer");
 const exitBtn = document.querySelector(".exitBtn");
 const contactBtn = document.querySelector(".contactBtn");
 const form = document.querySelector(".form");
@@ -29,48 +30,49 @@ const quiz = [
     choices: ["Namek", "Sayan", "Truffle"],
     answer: "Namek",
   },
-  {
-    question: "Q.: What do all the dragon balls have inside?",
-    choices: ["Crystals", "Stars", "Dragons"],
-    answer: "Stars",
-  },
-  {
-  question: "Q.: Krillin trained under",
-  choices: ["Picolo", "Tien", "Master Roshi"],
-  answer: "Master Roshi",
-  },
-  {
-   question:
-    "Q.: This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
-  choices: ["Oolong", "Ox King", "King Yemma"],
-  answer: "Oolong",
-   },
-   {
-   question: "Q.: Garlic Jr.'s power is greatest when he's closest to",
-   choices: ["Kami", "Shenron", "The Makyo Star"],
-   answer: "The Makyo Star",
-  },
-  {
-   question: "Q.: Dr. Gero works for",
-   choices: ["The Red Ribbon Army", "The Spice Boys", "Androids 19 and 20"],
-   answer: "The Red Ribbon Army",
-  },
-  {
-   question: "Q.: When Goku's energy level goes way up, his eyes turn",
-   choices: ["Red", "Green", "Gold"],
-    answer: "Green",
-  },
-   {
-    question: "Q.: Like his father, Gohan had this when he was little:",
-    choices: ["A cat", "A Flying disc", "A tail"],
-    answer: "A tail",
-  },
+  //{
+    //question: "Q.: What do all the dragon balls have inside?",
+    //choices: ["Crystals", "Stars", "Dragons"],
+    //answer: "Stars",
+  //},
+  //{
+  //question: "Q.: Krillin trained under",
+  //choices: ["Picolo", "Tien", "Master Roshi"],
+  //answer: "Master Roshi",
+  //},
+  //{
+   //question:
+    //"Q.: This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
+  //choices: ["Oolong", "Ox King", "King Yemma"],
+  //answer: "Oolong",
+   //},
+   //{
+   //question: "Q.: Garlic Jr.'s power is greatest when he's closest to",
+   //choices: ["Kami", "Shenron", "The Makyo Star"],
+   //answer: "The Makyo Star",
+  //},
+  //{
+   //question: "Q.: Dr. Gero works for",
+   //choices: ["The Red Ribbon Army", "The Spice Boys", "Androids 19 and 20"],
+   //answer: "The Red Ribbon Army",
+  //},
+  //{
+   //question: "Q.: When Goku's energy level goes way up, his eyes turn",
+   //choices: ["Red", "Green", "Gold"],
+    //answer: "Green",
+  //},
+   //{
+    //question: "Q.: Like his father, Gohan had this when he was little:",
+    //choices: ["A cat", "A Flying disc", "A tail"],
+    //answer: "A tail",
+  //},
 ];
 
 // Making Variables
 let currentQuestionIndex = 0;
 let score = 0;
 let quizOver = false;
+let timeLeft = 20;
 
 // Arrow Function to Show Questions
 const showQuestions = () => {
@@ -98,6 +100,7 @@ const showQuestions = () => {
 
 // Function to check answers
 const checkAnswer = () => {
+  //alert("Select Choice")
   const selectedChoice = document.querySelector(".choice.selected");
   if (selectedChoice.textContent === quiz[currentQuestionIndex].answer) {
     //alert("Correct Answer!");
@@ -142,6 +145,7 @@ const displayAlert = (msg) => {
   }, 1000);
 };
 
+// Event Listener Start timer
 
 // Event Listener to Start Button
 startBtn.addEventListener("click", () => {
