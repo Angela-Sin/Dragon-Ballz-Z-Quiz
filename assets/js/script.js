@@ -155,11 +155,18 @@ const startTimer = () => {
     timer.textContent = timeLeft;
   timeLeft--;
   if(timeLeft === 0){
+    const confirmUser = confirm("Time out. Do You wish to continue?");
 
   }
   }
   setInterval(countDown, 1000);
 }
+
+// Function to Start Quiz
+const startQuiz = () => {
+  timeLeft = 20;
+  
+};
 
 
 // Event Listener to Start Button
@@ -170,7 +177,7 @@ startBtn.addEventListener("click", () => {
   logo.style.display = "none";
   rules.style.display = "none";
 
-  showQuestions();
+ showQuestions();
 });
 
 exitBtn.addEventListener("click", () => {
@@ -183,7 +190,7 @@ exitBtn.addEventListener("click", () => {
   showQuestions();
 });
 
-showQuestions();
+
 nextBtn.addEventListener("click", () => {
   const selectedChoice = document.querySelector(".choice.selected");
   if (!selectedChoice && nextBtn.textContent === "Next") {
