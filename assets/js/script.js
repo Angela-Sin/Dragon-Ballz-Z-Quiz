@@ -96,6 +96,10 @@ const showQuestions = () => {
       }
     });
   }
+
+  if(currentQuestionIndex < quiz.length){
+    startTimer();
+  }
 };
 
 // Function to check answers
@@ -146,6 +150,17 @@ const displayAlert = (msg) => {
 };
 
 // Event Listener Start timer
+const startTimer = () => {
+  const countDown = ()=>{
+    timer.textContent = timeLeft;
+  timeLeft--;
+  if(timeLeft === 0){
+
+  }
+  }
+  setInterval(countDown, 1000);
+}
+
 
 // Event Listener to Start Button
 startBtn.addEventListener("click", () => {
