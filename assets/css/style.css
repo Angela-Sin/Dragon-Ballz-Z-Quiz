@@ -74,10 +74,10 @@ body {
 
   
 
-
 .choice:hover {
   background-color: #f7f583;
 }
+
 
 .scoreCont {
   font-size: 24px;
@@ -94,9 +94,8 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #08780c;
-}
+
+
 
 .btn {
   width: 60%;
@@ -114,6 +113,11 @@ button:hover {
 
 .btn:hover {
   background-color: #08780c;
+}
+
+.choice .selected {
+  background-color: #f7f583;
+  color: #fff;
 }
 
 /* Alert styles */

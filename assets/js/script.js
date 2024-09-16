@@ -98,7 +98,7 @@ const showQuestions = () => {
     });
   }
 
-  if(currentQuestionIndex < quiz.length){
+  if (currentQuestionIndex < quiz.length) {
     startTimer();
   }
 };
@@ -123,6 +123,7 @@ const checkAnswer = () => {
     showScore();
     stopTimer();
     quizOver = true;
+    timer.style.display = "none";
   }
   //console.log(selectedChoice);
 };
@@ -135,6 +136,7 @@ const showScore = () => {
   scoreCont.textContent = `You Scored ${score} out of ${quiz.length}!`;
   displayAlert("You have completed this quiz!");
   nextBtn.textContent = "Play Again";
+  quizOver = true;
   timer.style.display = "none";
   //nextBtn.addEventListener('click', ()=>{
   //currentQuestionIndex = 0;
@@ -155,6 +157,8 @@ const displayAlert = (msg) => {
 
 // Event Listener Start timer
 const startTimer = () => {
+  clearInterval(timerID);
+  timer.textContent = timeLeft;
   const countDown = ()=>{
     timer.textContent = timeLeft;
   timeLeft--;
@@ -162,7 +166,7 @@ const startTimer = () => {
     const confirmUser = confirm("Time out. Do You wish to continue?");
     if(confirmUser){
       timeLeft = 20;
-      showQuestions();
+      startQuiz();
 
     }
     else{
@@ -177,13 +181,14 @@ const startTimer = () => {
   }
   }
   timerID = setInterval(countDown, 1000);
-}
+};
 
 
 
 // Function to Start Quiz
 const startQuiz = () => {
   timeLeft = 20;
+  timer.style.display = "flex";
   showQuestions();
   
 };
@@ -230,7 +235,7 @@ nextBtn.addEventListener("click", () => {
 
     quizOver = false;
     score = 0;
-    showQuestions();
+    startQuiz();
   } else {
     checkAnswer();
   }
