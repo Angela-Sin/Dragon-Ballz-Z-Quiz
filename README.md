@@ -174,7 +174,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
 | [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette) | Across website | Background Image             |
 | [amiresponsive](https://ui.dev/amiresponsive)                                                                        | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
-
+| [Icon](https://www.kindpng.com/imgv/hbxJibi_dragon-ball-z-png-goku-transparent-png/)                                                                                          | Acros website  | Quiz Icon |
 
 
 ### Acknowledgements
