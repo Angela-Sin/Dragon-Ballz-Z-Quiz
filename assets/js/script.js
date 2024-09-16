@@ -30,11 +30,11 @@ const quiz = [
     choices: ["Namek", "Sayan", "Truffle"],
     answer: "Namek",
   },
-  //{
-    //question: "Q.: What do all the dragon balls have inside?",
-    //choices: ["Crystals", "Stars", "Dragons"],
-    //answer: "Stars",
-  //},
+  {
+    question: "Q.: What do all the dragon balls have inside?",
+    choices: ["Crystals", "Stars", "Dragons"],
+    answer: "Stars",
+  },
   //{
   //question: "Q.: Krillin trained under",
   //choices: ["Picolo", "Tien", "Master Roshi"],
@@ -113,7 +113,9 @@ const checkAnswer = () => {
     score++;
   } else {
     //alert("Wrong Answer!");
-    displayAlert("Wrong Answer!");
+    displayAlert(
+      "Wrong Answer!${quiz[currentQuestionIndex].answer} is the Correct Answer "
+    );
   }
   timeLeft = 20;
   currentQuestionIndex++;
@@ -122,8 +124,7 @@ const checkAnswer = () => {
   } else {
     showScore();
     stopTimer();
-    quizOver = true;
-    timer.style.display = "none";
+    
   }
   //console.log(selectedChoice);
 };
@@ -138,12 +139,6 @@ const showScore = () => {
   nextBtn.textContent = "Play Again";
   quizOver = true;
   timer.style.display = "none";
-  //nextBtn.addEventListener('click', ()=>{
-  //currentQuestionIndex = 0;
-  //showQuestions();
-  //nextBtn.textContent = "Next";
-  //scoreCont.textContent = "";
-  //});
 };
 
 // Function to Show Alert
@@ -188,8 +183,8 @@ const startTimer = () => {
 // Function to Start Quiz
 const startQuiz = () => {
   timeLeft = 20;
-  timer.style.display = "flex";
-  showQuestions();
+  timer.style.display = "flex"; //After pressing ''play again'' timer is on the left bottom corner
+  shuffleQuestions();
   
 };
 
@@ -198,6 +193,15 @@ const stopTimer = () => {
   clearInterval(timerID);
 };
 
+//Shuffle question function
+const shuffleQuestions = () => {
+  for(let i=quiz.length-1; i>0; i--){
+    const j = Math.floor (Math.random() * i+1);
+    [quiz[i], quiz[j]] = [quiz[j], quiz[i]];
+  }
+  currentQuestionIndex = 0;
+  showQuestions();
+}
 // Event Listener to Start Button
 startBtn.addEventListener("click", () => {
   startBtn.style.display = "none";
@@ -209,6 +213,7 @@ startBtn.addEventListener("click", () => {
  showQuestions();
 });
 
+// Event Listener to Exit Button
 exitBtn.addEventListener("click", () => {
   container.style.display = "none";
   startBtn.style.display = "block";
@@ -219,7 +224,7 @@ exitBtn.addEventListener("click", () => {
   showQuestions();
 });
 
-
+// Event Listener to Next Button
 nextBtn.addEventListener("click", () => {
   const selectedChoice = document.querySelector(".choice.selected");
   if (!selectedChoice && nextBtn.textContent === "Next") {
