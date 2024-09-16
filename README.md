@@ -64,6 +64,9 @@ The color scheme was defined using the colors on the background picture.
 ![Background](./assets/img/Backround.jpg)
 The image helps the user to quickly identify the purpose of the site (i.e. a quiz).
   
+- ## Icon
+![Icon](./assets/img/kindpng_4228532.png)
+[Icon](https://www.kindpng.com/imgv/hbxJibi_dragon-ball-z-png-goku-transparent-png/)
 
 - ## Typography
 Google Fonts font Poppins was used as a shrift. [Google Fonts](https://fonts.google.com/?query=poppins)
