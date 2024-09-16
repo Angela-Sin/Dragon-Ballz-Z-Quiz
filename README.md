@@ -1,5 +1,5 @@
 # Dragon Ball Z quiz Game
-Dragon Ball Z quiz  pp2 https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/
+Dragon Ball Z quiz  pp2 (https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
 ![Responsivness](./assets/media/responcive.png)
 
 ## About me
@@ -10,14 +10,14 @@ Dragon Ball Z quiz  pp2 https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.code
 
 ## User Interface - In-Game UI
 
-- **As user I want this website to be responsive to my device.
+- **As user I want this website to be responsive to different devices.
 - **As user I want to check my scores.
 - **As user I want to know if I selected the correct option.
 - **As user I want to easily navigate on this website.
-- **As user I want to leave feedback and send a message or ask the question.
-- **As user 
-- **As user 
-- **As user 
+- **As user I want to leave feedback and send a message or ask questions.
+- **As user I want to understand the purpose of the site quickly to see if I want to play.
+- **As user I want to easily replay the quiz so I can try to get a better score.
+- **As user I want to get an alert if I've forgotten to answer a question so I don't miss an opportunity to increase my score.
 
 
 
@@ -49,13 +49,12 @@ For all Media queries, Wireframes are the same!
 
   - Play-Again/Exit Page -![Wireframes](./assets/media/PlayAgain.png)
   
-
   - Contact Page  -![Wireframe](./assets/media/Contact.png)
 
 
 
 - ### Color Pallete
-The colour scheme was defined using the colours on the background picture.
+The color scheme was defined using the colors on the background picture.
 
   ![Pallete](./assets/media/game.png)
 
@@ -63,10 +62,11 @@ The colour scheme was defined using the colours on the background picture.
 - ## Background
 
 ![Background](./assets/img/Backround.jpg)
+The image helps the user to quickly identify the purpose of the site (i.e. a quiz).
   
 
 - ## Typography
-Google Fonts font Poppins was used as shrift. [Google Fonts](https://fonts.google.com/?query=poppins)
+Google Fonts font Poppins was used as a shrift. [Google Fonts](https://fonts.google.com/?query=poppins)
 
 ## Technologies Used
 
@@ -90,7 +90,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, and Safari browsers.
-- The website was tested on numerous sized screens including Mobile phone, Ipad, Laptop and was found to respond as expected to all sizes. Chrome development tools was used throughout the design process to check responsiveness and breakpoints.
+- The website was tested on numerous sized screens including Mobile phones, iPads, and laptops, and was found to respond as expected to all sizes. Chrome development tools were used throughout the design process to check responsiveness and breakpoints.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Future adding
@@ -159,19 +159,23 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 | Source                                                                                                               | Location       | Notes                        |
 | -------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------- |
-| [YouTube](https://www.youtube.com/)                                                                                  | Acros website  | Tutorial for troubleshouting |
+| [Git](https://git-scm.com/)                                                                                          | Acros website  | for version control |
+| [GitHub](https://github.com/)                                                                                        | Acros website  | to store the project files.  |
+| [GitPod](https://www.gitpod.io/)                                                                                     | Acros website  | as the IDE for development.  |
+| [Readme](https://github.com/Angela-Sin/Retro-Game)                                                                   | Acros website  | As an example, created originally by me for hackathon |
+| [YouTube](https://www.youtube.com/)                                                                                  | Acros website  | Tutorial for troubleshooting |
 | [WebAIM ](https://webaim.org/)                                                                                       | Acros website  | Contrast Checker             |
 | [Fonts Google](https://fonts.google.com/)                                                                            | Across website | Font selection               |
 | [Coolors](https://coolors.co/)                                                                                       | Across website | Colour palette selection     |
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
-| [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette)         | Across website | Background Image          |
-| [amiresponsive](https://ui.dev/amiresponsive)         | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
+| [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette) | Across website | Background Image             |
+| [amiresponsive](https://ui.dev/amiresponsive)                                                                        | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
 
 
 
 ### Acknowledgements
 
 - Special mention is also deserved by my mentor Medale Oluwafemi. 
-- As a tutoring team for healp and support during the project.
+- As a tutoring team for help and support during the project.
 
