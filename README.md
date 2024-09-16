@@ -81,9 +81,11 @@ For all Media queries, Wireframes are the same!
   - Landing Page -![Wireframes](./assets/media/landing.png)
 
   - Quiz-game Page -![Wireframes](./assets/media/gamepg.png)
+
+  - Play-Again/Exit Page -![Wireframes](./assets/media/PlayAgain.png)
   
 
-  - Contact Page  -![Wireframe]
+  - Contact Page  -![Wireframe](./assets/media/Contact.png)
 
 
 
@@ -114,9 +116,9 @@ For all Media queries, Wireframes are the same!
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-  ![HTML](./assets/images/HTML.png)
+  ![HTML](./assets/media/index.html.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-  ![results](./assets/images/CSS.png)
+  ![results](./assets/media/style.css.png)
 
 ### Further Testing
 
