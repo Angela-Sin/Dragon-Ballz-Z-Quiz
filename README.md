@@ -1,5 +1,5 @@
 # Dragon Ball Z quiz Game
-Dragon Ball Z quiz PP2
+Dragon Ball Z quiz  pp2 https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/
 ![Responsivness](./assets/media/responcive.png)
 
 ## About me
@@ -10,44 +10,16 @@ Dragon Ball Z quiz PP2
 
 ## User Interface - In-Game UI
 
-- **As a player, I want a clear and intuitive user interface that shows my score, lives, and level progress so that I can easily understand my current game status.**
+- **As user I want this website to be responsive to my device.
+- **As user I want to check my scores.
+- **As user I want to know if I selected the correct option.
+- **As user I want to easily navigate on this website.
+- **As user I want to leave feedback and send a message or ask the question.
+- **As user 
+- **As user 
+- **As user 
 
-  - 
-  - 
 
-- **As a player, I want to be able to read credits.**
-
-  - Include a credits screen at the end of the game.
-
-- **As a player, I want a menu in a game that gives me options.**
-
-  - 
-  - 
-  - 
-
-- **As a player, I want to control where the character drops the projectile using keyboard/mouse inputs so that I can interact with the game.**
-
-  - 
-
-- **As a player, I want to experience different levels or stages in the game so that I can enjoy a sense of progression and challenge.**
-
-  - 
-  - Transition between levels should be smooth and provide text-based feedback.
-  - 
-
-- **As a player, I want to hear background music that complements the retro theme so that the game environment feels immersive.**
-
-  - 
-  - 
-  - 
-  - 
-  - 
-
-- **As a player, I want to see instructions and controls at the start of the game so that I know how to play and what actions are available.**
-
-  - Instructions are displayed at the start of the game.
-  - Instructions should clearly describe controls and gameplay mechanics.
-  - Instructions should be easy to read and navigate.
 
 ## Our Contributions
 
@@ -57,19 +29,12 @@ Dragon Ball Z quiz PP2
   - Platform-specific issues are resolved and documented.
   - Deployment instructions are included in the documentation.
 
-- **As a developer, I need to ensure that the game is optimized for performance so that it runs smoothly and efficiently on target devices.**
+- **As a developer, I need to ensure that the quiz is optimized for performance so that it runs smoothly and efficiently on target devices.**
 
-  - The game’s performance is tested and optimized for speed and resource usage.
-  - Any performance bottlenecks are identified and addressed.
   - The game should maintain consistent frame rates and responsiveness.
 
-- **As a developer, I need to integrate various sprites (characters, enemies, items) into the game so that the game has a visually engaging experience.**
+- **As a developer, I need to ensure that the game's visual style matches the idea theme so that the game maintains a consistent aesthetic.**
 
-  - Sprites for the main character, enemies, and interactive items are available and correctly displayed.
-  - Sprites should be loaded and rendered efficiently without causing performance issues.
-
-- **As a developer, I need to ensure that the game's visual style matches the retro theme so that the game maintains a consistent aesthetic.**
-  - Visual elements such as backgrounds, sprites, and UI components adhere to the 8-bit gaming style (e.g., pixel art).
   - The color palette and graphical effects should reflect a classic gaming era.
 
 ## Design
@@ -90,16 +55,18 @@ For all Media queries, Wireframes are the same!
 
 
 - ### Color Pallete
+The colour scheme was defined using the colours on the background picture.
 
   ![Pallete](./assets/media/game.png)
 
 
 - ## Background
+
+![Background](./assets/img/Backround.jpg)
   
 
-## Features
-
-- Challenge
+- ## Typography
+Google Fonts font Poppins was used as shrift. [Google Fonts](https://fonts.google.com/?query=poppins)
 
 ## Technologies Used
 
@@ -123,11 +90,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, and Safari browsers.
+- The website was tested on numerous sized screens including Mobile phone, Ipad, Laptop and was found to respond as expected to all sizes. Chrome development tools was used throughout the design process to check responsiveness and breakpoints.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Future adding
 
-- 
+## For future implementations, I would like to:
+
+- Connect the application to a database so that I can increase the number of questions on the questions bank.
+- Have different levels for the user to play.
+- Have the matches saved into the database so the leaderboard would show all users that play the game, not only the ones by the browser.
 
 ## Getting Started
 
@@ -181,7 +153,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
-- All content was written by me.
+- All content was written by Angela Siniavskaja.
 
 ## Resources Used
 
@@ -193,10 +165,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [Coolors](https://coolors.co/)                                                                                       | Across website | Colour palette selection     |
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
+| [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette)         | Across website | Background Image          |
+| [amiresponsive](https://ui.dev/amiresponsive)         | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
+
 
 
 ### Acknowledgements
 
 - Special mention is also deserved by my mentor Medale Oluwafemi. 
-- As a tutoring team as well.
+- As a tutoring team for healp and support during the project.
 
