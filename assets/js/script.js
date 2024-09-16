@@ -196,7 +196,7 @@ const stopTimer = () => {
 //Shuffle question function
 const shuffleQuestions = () => {
   for(let i=quiz.length-1; i>0; i--){
-    const j = Math.floor (Math.random() * i+1);
+    const j = Math.floor (Math.random() * (i+1));
     [quiz[i], quiz[j]] = [quiz[j], quiz[i]];
   }
   currentQuestionIndex = 0;
