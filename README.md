@@ -1,5 +1,5 @@
 # Dragon Ball Z quiz Game
-Dragon Ball Z quiz  pp2 (https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
+Dragon Ball Z quiz  pp2 [Quiz](https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
 ![Responsivness](./assets/media/responcive.png)
 
 ## About me
@@ -10,14 +10,14 @@ Dragon Ball Z quiz  pp2 (https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.cod
 
 ## User Interface - In-Game UI
 
-- **As user I want this website to be responsive to different devices.
-- **As user I want to check my scores.
-- **As user I want to know if I selected the correct option.
-- **As user I want to easily navigate on this website.
-- **As user I want to leave feedback and send a message or ask questions.
-- **As user I want to understand the purpose of the site quickly to see if I want to play.
-- **As user I want to easily replay the quiz so I can try to get a better score.
-- **As user I want to get an alert if I've forgotten to answer a question so I don't miss an opportunity to increase my score.
+- As user I want this website to be responsive to different devices.
+- As user I want to check my scores.
+- As user I want to know if I selected the correct option.
+- As user I want to easily navigate on this website.
+- As user I want to leave feedback and send a message or ask questions.
+- As user I want to understand the purpose of the site quickly to see if I want to play.
+- As user I want to easily replay the quiz so I can try to get a better score.
+- As user I want to get an alert if I've forgotten to answer a question so I don't miss an opportunity to increase my score.
 
 
 
@@ -96,6 +96,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The website was tested on numerous sized screens including Mobile phones, iPads, and laptops, and was found to respond as expected to all sizes. Chrome development tools were used throughout the design process to check responsiveness and breakpoints.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+## Accesability
+[Desctope](./assets/media/desctope.png)
+
+[Mobile](./assets/media/mobile.png)
 ### Future adding
 
 ## For future implementations, I would like to:
@@ -173,6 +177,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
 | [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette) | Across website | Background Image             |
+| [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)                                                  | Across website | Speed testing for Mobile and Desctope           |
 | [amiresponsive](https://ui.dev/amiresponsive)                                                                        | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
 | [Icon](https://www.kindpng.com/imgv/hbxJibi_dragon-ball-z-png-goku-transparent-png/)                                                                                          | Acros website  | Quiz Icon |
 
