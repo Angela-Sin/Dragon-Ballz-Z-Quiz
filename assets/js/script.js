@@ -35,37 +35,37 @@ const quiz = [
     choices: ["Crystals", "Stars", "Dragons"],
     answer: "Stars",
   },
-  //{
-  //question: "Q.: Krillin trained under",
-  //choices: ["Picolo", "Tien", "Master Roshi"],
-  //answer: "Master Roshi",
-  //},
-  //{
-   //question:
-    //"Q.: This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
-  //choices: ["Oolong", "Ox King", "King Yemma"],
-  //answer: "Oolong",
-   //},
-   //{
-   //question: "Q.: Garlic Jr.'s power is greatest when he's closest to",
-   //choices: ["Kami", "Shenron", "The Makyo Star"],
-   //answer: "The Makyo Star",
-  //},
-  //{
-   //question: "Q.: Dr. Gero works for",
-   //choices: ["The Red Ribbon Army", "The Spice Boys", "Androids 19 and 20"],
-   //answer: "The Red Ribbon Army",
-  //},
-  //{
-   //question: "Q.: When Goku's energy level goes way up, his eyes turn",
-   //choices: ["Red", "Green", "Gold"],
-    //answer: "Green",
-  //},
-   //{
-    //question: "Q.: Like his father, Gohan had this when he was little:",
-    //choices: ["A cat", "A Flying disc", "A tail"],
-    //answer: "A tail",
-  //},
+  {
+  question: "Q.: Krillin trained under",
+  choices: ["Picolo", "Tien", "Master Roshi"],
+  answer: "Master Roshi",
+  },
+  {
+   question:
+    "Q.: This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
+  choices: ["Oolong", "Ox King", "King Yemma"],
+  answer: "Oolong",
+   },
+  {
+   question: "Q.: Garlic Jr.'s power is greatest when he's closest to",
+   choices: ["Kami", "Shenron", "The Makyo Star"],
+   answer: "The Makyo Star",
+  },
+  {
+   question: "Q.: Dr. Gero works for",
+   choices: ["The Red Ribbon Army", "The Spice Boys", "Androids 19 and 20"],
+   answer: "The Red Ribbon Army",
+  },
+  {
+   question: "Q.: When Goku's energy level goes way up, his eyes turn",
+   choices: ["Red", "Green", "Gold"],
+    answer: "Green",
+  },
+   {
+    question: "Q.: Like his father, Gohan had this when he was little:",
+    choices: ["A cat", "A Flying disc", "A tail"],
+    answer: "A tail",
+  },
 ];
 
 // Making Variables
