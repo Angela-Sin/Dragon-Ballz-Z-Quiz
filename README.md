@@ -98,62 +98,118 @@ Largest function has 13 statements in it, while the median is 5.
 The most complex function has a cyclomatic complexity value of 4 while the median is 1.
 
 57 warnings
+
 2	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 3	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 4	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 5	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 6	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 7	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 7	Redefinition of 'alert'.
+
 8	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 9	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 10	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 11	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 12	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 13	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 14	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 18	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 73	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 74	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 75	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 76	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 77	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 80	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 80	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 81	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 86	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 87	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 88	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 93	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 108	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 108	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 110	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 135	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 135	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 138	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
 146	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 146	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 149	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 155	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 155	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 158	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 158	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 162	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 178	Missing semicolon.
+
 185	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 185	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 193	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 193	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 198	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 198	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 199	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 200	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 201	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 205	Missing semicolon.
+
 207	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 218	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 229	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
 230	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
 251	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
 ### Further Testing
@@ -167,6 +223,11 @@ The most complex function has a cyclomatic complexity value of 4 while the media
  - ![Desctope](./assets/media/desctope.png)
 
  - ![Mobile](./assets/media/mobile.png)
+
+
+ ## Contrast
+
+ - ![Contrast](./assets/media/Screenshot%202024-09-17%20144409.png)
 
 
 ## For future implementations, I would like to:
@@ -227,7 +288,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
-- All content was written by Angela Siniavskaja.
+- The idea and desighn of the quiz was written by me Angela Siniavskaja. 
 
 ## Resources Used
 
@@ -238,10 +299,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [GitPod](https://www.gitpod.io/)                                                                                     | Acros website  | as the IDE for development.  |
 | [Readme](https://github.com/Angela-Sin/Retro-Game)                                                                   | Acros website  | As an example, created originally by me for hackathon |
 | [YouTube](https://www.youtube.com/)                                                                                  | Acros website  | Tutorial for troubleshooting |
-| [WebAIM ](https://webaim.org/)                                                                                       | Acros website  | Contrast Checker             |
+| [Color.Co](https://coolors.co/contrast-checker/ffffff-00000a)                                                                                                        | Acros website  | Contrast Checker             |
 | [Fonts Google](https://fonts.google.com/)                                                                            | Across website | Font selection               |
 | [Coolors](https://coolors.co/)                                                                                       | Across website | Colour palette selection     |
 | [W3Schools](https://www.w3schools.com/)                                                                              | Across website | Various help pages           |
+| [HTML Validator](https://validator.w3.org/)                                                                          | Across website | HTML Validator           |
+| [CSS Validator](https://jigsaw.w3.org/css-validator/)                                                                | Across website | CSS Validator           |
+| [JavaScript Validator](https://jshint.com/)                                                                          | Across website | JavaScript Validator           |
 | [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=EAIaIQobChMI9-DR99b-hwMV9JtQBh0I3yMEEAAYASAAEgJTpPD_BwE)         | Across website | Wireframes creation          |
 | [Wallpapers.com](https://wallpapers.com/wallpapers/dragon-ball-characters-5edplpjnfbysr3d9/download#google_vignette) | Across website | Background Image             |
 | [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)                                                  | Across website | Speed testing for Mobile and Desctope           |
@@ -251,6 +315,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-- Special mention is also deserved by my mentor Medale Oluwafemi. 
+- Special mention is also deserved by my mentor Medale Oluwafemi for helping me understand the requirements and guiding me through the realization of this project!
 - As a tutoring team for help and support during the project.
 
