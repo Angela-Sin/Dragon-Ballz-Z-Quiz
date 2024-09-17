@@ -97,9 +97,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## Accesability
-[Desctope](./assets/media/desctope.png)
+![Desctope] (./assets/media/desctope.png)
 
-[Mobile](./assets/media/mobile.png)
+!
+[Mobile] (./assets/media/mobile.png)
 ### Future adding
 
 ## For future implementations, I would like to:
