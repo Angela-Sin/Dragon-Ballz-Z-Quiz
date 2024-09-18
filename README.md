@@ -1,3 +1,5 @@
+![Drago](./assets/media/Screenshot%202024-09-18%20134123.png)
+
 # Dragon Ball Z quiz Game
 Dragon Ball Z quiz  pp2 [Quiz](https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
 ![Responsivness](./assets/media/Screenshot%202024-09-18%20125657.png)
@@ -12,6 +14,7 @@ This quiz is to test your knowledge of Dragon Ballz.
 
 ## Rules
 
+![Rules](./assets/media/Screenshot%202024-09-18%20134110.png)
 - In the center of the page, You have a short RULES explanation.
 - To PLAY the quiz please press the START button!
 - You have to answer 10 question!
@@ -207,6 +210,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [amiresponsive](https://ui.dev/amiresponsive)                                                                        | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
 | [Icon](https://www.kindpng.com/imgv/hbxJibi_dragon-ball-z-png-goku-transparent-png/)                                                                                          | Acros website  | Quiz Icon |
 | [Project Overview](https://heywise.com/quiz/only-the-biggest-dragon-ball-z-fans-will-ace-this-quiz/)                                                                        | Across website | Project Overview       |
+| [Questions](https://www.factmonster.com/take-quiz/dragonz)                                                                        | Across website | Questions      |
 
 ### Acknowledgements
 
