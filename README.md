@@ -1,6 +1,6 @@
 # Dragon Ball Z quiz Game
 Dragon Ball Z quiz  pp2 [Quiz](https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
-![Responsivness](./assets/media/responcive.png)
+![Responsivness](./assets/media/Screenshot%202024-09-18%20125657.png)
 
 ## About me
 
