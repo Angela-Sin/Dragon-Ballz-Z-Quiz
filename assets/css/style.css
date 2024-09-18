@@ -140,18 +140,17 @@ button {
   text-align: center;
 }
 
-.contactBtn {
-  width: 15%;
-  padding-block: 20px;
-  text-align: center;
-}
-
 .timer {
   position: sticky;
   font-size: 24px;
 
 }
 
+.contactBtn {
+  width: 15%;
+  padding-block: 20px;
+  text-align: center;
+}
 
 /* Contact cont styles */
 .form {
@@ -166,6 +165,11 @@ height: 500px;
   text-align: center;
   display: none;
   
+}
+
+.close-btn {
+  cursor: pointer;
+
 }
 
 

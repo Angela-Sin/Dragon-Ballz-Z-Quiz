@@ -11,6 +11,7 @@ const contactBtn = document.querySelector(".contactBtn");
 const form = document.querySelector(".form");
 const logo = document.querySelector(".logo");
 const rules = document.querySelector(".rules");
+const closeBtn = document.querySelector(".close-btn");
 
 
 //Question list
@@ -247,4 +248,12 @@ contactBtn.addEventListener("click", () => {
   logo.style.display = "none";
   rules.style.display = "none";
 
+});
+
+closeBtn.addEventListener("click", () => {
+  contactBtn.style.display = "block";
+  form.style.display = "none";
+  startBtn.style.display = "block";
+  logo.style.display = "block";
+  rules.style.display = "block";
 });
