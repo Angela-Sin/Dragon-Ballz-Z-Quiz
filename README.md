@@ -10,6 +10,17 @@ Dragon Ball Z is a hugely popular Japanese anime series that follows the adult l
 
 This quiz is to test your knowledge of Dragon Ballz. 
 
+## Rules
+
+- In the center of the page, You have a short RULES explanation.
+- To PLAY the quiz please press the START button!
+- You have to answer 10 question!
+- For each question, You have 20 seconds to think and answer!
+- After you answer each question on the top of the page You will see the alert, it will show whether Your answer was right or not!
+- If You are not confident or want to leave the quiz You can press the EXIT button!
+- If You want to leave Feedback, or question, or just a message please press the CONTACT button.
+
+
 
 ## User Interface - In-Game UI
 
