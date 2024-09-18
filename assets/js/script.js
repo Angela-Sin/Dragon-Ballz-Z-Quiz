@@ -63,7 +63,7 @@ const quiz = [
     answer: "Green",
   },
    {
-    question: "Q. Like his father, Gohan had this when he was little:",
+    question: "Q. Like his father, Gohan had this when he was little",
     choices: ["A cat", "A Flying disc", "A tail"],
     answer: "A tail",
   },
@@ -173,8 +173,6 @@ const startTimer = () => {
   timerID = setInterval(countDown, 1000);
 };
 
-
-
 // Function to Start Quiz
 const startQuiz = () => {
   timeLeft = 20;
@@ -249,7 +247,6 @@ contactBtn.addEventListener("click", () => {
   rules.style.display = "none";
 
 });
-
 
 // Event Listener for Close-Btn in Contact form
 closeBtn.addEventListener("click", () => {
