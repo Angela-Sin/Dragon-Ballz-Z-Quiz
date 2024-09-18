@@ -78,10 +78,9 @@ let timerID = null;
 // Arrow Function to Show Questions
 const showQuestions = () => {
   const questionDetails = quiz[currentQuestionIndex];
-
   questionBox.textContent = questionDetails.question;
-
   choicesBox.textContent = "";
+ 
   for (let i = 0; i < questionDetails.choices.length; i++) {
     const currentChoice = questionDetails.choices[i];
     const choiceDiv = document.createElement("div");
@@ -105,17 +104,13 @@ const showQuestions = () => {
 
 // Function to check answers
 const checkAnswer = () => {
-  //alert("Select Choice")
   const selectedChoice = document.querySelector(".choice.selected");
   if (selectedChoice.textContent === quiz[currentQuestionIndex].answer) {
-    //alert("Correct Answer!");
     displayAlert("Correct Answer!");
     score++;
   } else {
-    //alert("Wrong Answer!");
-    displayAlert(
-      "Wrong Answer!${quiz[currentQuestionIndex].answer} is the Correct Answer "
-    );
+    displayAlert
+      (`Wrong Answer!${quiz[currentQuestionIndex].answer} is the Correct Answer`);
   }
   timeLeft = 20;
   currentQuestionIndex++;
@@ -126,11 +121,10 @@ const checkAnswer = () => {
     stopTimer();
     
   }
-  //console.log(selectedChoice);
 };
 
-//Show score function
 
+//Show score function
 const showScore = () => {
   questionBox.textContent = "";
   choicesBox.textContent = "";
@@ -202,6 +196,7 @@ const shuffleQuestions = () => {
   currentQuestionIndex = 0;
   showQuestions();
 }
+
 // Event Listener to Start Button
 startBtn.addEventListener("click", () => {
   startBtn.style.display = "none";
@@ -228,12 +223,10 @@ exitBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
   const selectedChoice = document.querySelector(".choice.selected");
   if (!selectedChoice && nextBtn.textContent === "Next") {
-    //alert("Select Answer");
     displayAlert("Select Answer");
     return;
   }
   if (quizOver) {
-    //currentQuestionIndex = 0;
     nextBtn.textContent = "Next";
     scoreCont.textContent = "";
     currentQuestionIndex = 0;
