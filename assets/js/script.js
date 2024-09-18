@@ -17,53 +17,53 @@ const closeBtn = document.querySelector(".close-btn");
 //Question list
 const quiz = [
   {
-    question: "Q.: What was Goku's name before he came to Earth as a baby?",
+    question: "Q. What was Goku's name before he came to Earth as a baby?",
     choices: ["Gohan", "Kakarot", "Saiyan"],
     answer: "Kakarot",
   },
   {
-    question: "Q.: Raditz is Goku's",
+    question: "Q. Raditz is Goku's",
     choices: ["Master", "Father", "Brother"],
     answer: "Brother",
   },
   {
-    question: "Q.: What planet do Kami and Piccolo come from?",
+    question: "Q. What planet do Kami and Piccolo come from?",
     choices: ["Namek", "Sayan", "Truffle"],
     answer: "Namek",
   },
   {
-    question: "Q.: What do all the dragon balls have inside?",
+    question: "Q. What do all the dragon balls have inside?",
     choices: ["Crystals", "Stars", "Dragons"],
     answer: "Stars",
   },
   {
-  question: "Q.: Krillin trained under",
+  question: "Q. Krillin trained under",
   choices: ["Picolo", "Tien", "Master Roshi"],
   answer: "Master Roshi",
   },
   {
    question:
-    "Q.: This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
+    "Q. This wise-cracking little pig-creature can shapeshift (well, for a few minutes):",
   choices: ["Oolong", "Ox King", "King Yemma"],
   answer: "Oolong",
    },
   {
-   question: "Q.: Garlic Jr.'s power is greatest when he's closest to",
+   question: "Q. Garlic Jr.'s power is greatest when he's closest to",
    choices: ["Kami", "Shenron", "The Makyo Star"],
    answer: "The Makyo Star",
   },
   {
-   question: "Q.: Dr. Gero works for",
+   question: "Q. Dr. Gero works for",
    choices: ["The Red Ribbon Army", "The Spice Boys", "Androids 19 and 20"],
    answer: "The Red Ribbon Army",
   },
   {
-   question: "Q.: When Goku's energy level goes way up, his eyes turn",
+   question: "Q. When Goku's energy level goes way up, his eyes turn",
    choices: ["Red", "Green", "Gold"],
     answer: "Green",
   },
    {
-    question: "Q.: Like his father, Gohan had this when he was little:",
+    question: "Q. Like his father, Gohan had this when he was little:",
     choices: ["A cat", "A Flying disc", "A tail"],
     answer: "A tail",
   },
@@ -250,6 +250,8 @@ contactBtn.addEventListener("click", () => {
 
 });
 
+
+// Event Listener for Close-Btn in Contact form
 closeBtn.addEventListener("click", () => {
   contactBtn.style.display = "block";
   form.style.display = "none";

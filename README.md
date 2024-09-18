@@ -7,6 +7,10 @@ Dragon Ball Z quiz  pp2 [Quiz](https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.
 
 ## Project Overview
 
+Dragon Ball Z is a hugely popular Japanese anime series that follows the adult life of the main character Goku. In the action-packed show, Goku and his friends defend their planet from magical villains and intergalactic space fighters. Powerful villains often threaten the heroes and their world. The series originally aired from 1989 to 1996, with new episodes airing from 2009 to 2015. Over the course of 13 years, fans have watched 291 episodes, and true Dragon Ball Z experts have watched them all. Do you know enough about Dragon Ball Z to consider yourself a superfan? Take this quiz to find out!
+
+This quiz is to test your knowledge of Dragon Ballz. 
+
 
 ## User Interface - In-Game UI
 
@@ -86,131 +90,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   ![CSS](./assets/media/style.css.png)
 - [https://jshint.com/](https://jshint.com/)
-  ![JavaScript](./assets/media/Screenshot%202024-09-17%20142843.png)
-Configure
-Metrics
-There are 15 functions in this file.
+  ![JavaScript](./assets/media/JavaScript.png)
+  ![JavaScript](./assets/media/JavaScript1.png)
+  ![JavaScript](./assets/media/JavaScript2.png)
+  ![JavaScript](./assets/media/JavaScript3.png)
+  ![JavaScript](./assets/media/JavaScript4.png)
 
-Function with the largest signature take 1 arguments, while the median is 0.
-
-Largest function has 13 statements in it, while the median is 5.
-
-The most complex function has a cyclomatic complexity value of 4 while the median is 1.
-
-57 warnings
-
-2	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-3	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-4	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-5	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-6	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-7	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-7	Redefinition of 'alert'.
-
-8	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-9	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-10	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-11	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-12	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-13	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-14	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-18	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-73	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-74	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-75	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-76	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-77	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-80	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-80	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-81	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-86	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-87	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-88	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-93	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-108	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-108	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-110	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-135	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-135	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-138	'template literal syntax' is only available in ES6 (use 'esversion: 6').
-
-146	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-146	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-149	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-155	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-155	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-158	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-158	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-162	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-178	Missing semicolon.
-
-185	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-185	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-193	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-193	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-198	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-198	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-199	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-200	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-201	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-205	Missing semicolon.
-
-207	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-218	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-229	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-230	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-251	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
 ### Further Testing
 
@@ -311,7 +196,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 | [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)                                                  | Across website | Speed testing for Mobile and Desctope           |
 | [amiresponsive](https://ui.dev/amiresponsive)                                                                        | Across website | was used to take the screenshot with different devices presented at the top of this document.        |
 | [Icon](https://www.kindpng.com/imgv/hbxJibi_dragon-ball-z-png-goku-transparent-png/)                                                                                          | Acros website  | Quiz Icon |
-
+| [Project Overview](https://heywise.com/quiz/only-the-biggest-dragon-ball-z-fans-will-ace-this-quiz/)                                                                        | Across website | Project Overview       |
 
 ### Acknowledgements
 
