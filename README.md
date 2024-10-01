@@ -1,40 +1,40 @@
 ![Drago](./assets/media/Screenshot%202024-09-18%20134123.png)
 
 # Dragon Ball Z quiz Game
-Dragon Ball Z quiz  pp2 [Quiz](https://8000-angelasin-dragonballzzq-vy0ruqnxb6h.ws.codeinstitute-ide.net/)
+Dragon Ball Z quiz  pp2 [Quiz]((https://angela-sin.github.io/Dragon-Ballz-Z-Quiz/))
 ![Responsivness](./assets/media/Screenshot%202024-09-18%20125657.png)
 
 
 
 ## Project Overview
 
-Dragon Ball Z is a hugely popular Japanese anime series that follows the adult life of the main character Goku. In the action-packed show, Goku and his friends defend their planet from magical villains and intergalactic space fighters. Powerful villains often threaten the heroes and their world. The series originally aired from 1989 to 1996, with new episodes airing from 2009 to 2015. Over the course of 13 years, fans have watched 291 episodes, and true Dragon Ball Z experts have watched them all. Do you know enough about Dragon Ball Z to consider yourself a superfan? Take this quiz to find out!
+Dragon Ball Z is a hugely popular Japanese anime series that follows the adult life of the main character Goku. Goku and his friends defend their planet from magical villains and intergalactic space fighters in the action-packed show. Powerful villains often threaten the heroes and their world. The series originally aired from 1989 to 1996, with new episodes airing from 2009 to 2015. Over 13 years, fans have watched 291 episodes, and true Dragon Ball Z experts have watched them all. Do you know enough about Dragon Ball Z to consider yourself a superfan? Take this quiz to find out!
 
 This quiz is to test your knowledge of Dragon Ballz. 
 
 ## Rules
 
 ![Rules](./assets/media/Screenshot%202024-09-18%20134110.png)
-- In the center of the page, You have a short RULES explanation.
+- In the center of the page, you will find a short explanation of RULES.
 - To PLAY the quiz please press the START button!
-- You have to answer 10 question!
+- You have to answer 10 questions!
 - For each question, You have 20 seconds to think and answer!
-- After you answer each question on the top of the page You will see the alert, it will show whether Your answer was right or not!
+- After you answer each question on the top of the page You will see the alert, showing whether Your answer was right or not!
 - If You are not confident or want to leave the quiz You can press the EXIT button!
-- If You want to leave Feedback, or question, or just a message please press the CONTACT button.
+- If You want to leave Feedback, a question, or just a message please press the CONTACT button.
 
 
 
 ## User Interface - In-Game UI
 
-- As user I want this website to be responsive to different devices.
-- As user I want to check my scores.
-- As user I want to know if I selected the correct option.
-- As user I want to easily navigate on this website.
-- As user I want to leave feedback and send a message or ask questions.
-- As user I want to understand the purpose of the site quickly to see if I want to play.
-- As user I want to easily replay the quiz so I can try to get a better score.
-- As user I want to get an alert if I've forgotten to answer a question so I don't miss an opportunity to increase my score.
+- As a user I want this website to be responsive to different devices.
+- As a user, I want to check my scores.
+- As a user, I want to know if I selected the correct option.
+- As a user, I want to easily navigate on this website.
+- As a user, I want to leave feedback and send a message or ask questions.
+- As a user, I want to understand the site's purpose quickly to see if I want to play.
+- As a user, I want to replay the quiz easily so I can try to get a better score.
+- As a user, I want to get an alert if I've forgotten to answer a question so I don't miss an opportunity to increase my score.
 
 
 
@@ -186,7 +186,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
-- The idea and desighn of the quiz was written by me Angela Siniavskaja. 
+- The idea and design of the quiz were written by me Angela Siniavskaja. 
 
 ## Resources Used
 
