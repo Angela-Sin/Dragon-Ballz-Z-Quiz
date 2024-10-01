@@ -1,7 +1,7 @@
 ![Drago](./assets/media/Screenshot%202024-09-18%20134123.png)
 
 # Dragon Ball Z quiz Game
-Dragon Ball Z quiz  pp2 [Quiz]((https://angela-sin.github.io/Dragon-Ballz-Z-Quiz/))
+Dragon Ball Z quiz  pp2 [Quiz]([https://angela-sin.github.io/Dragon-Ballz-Z-Quiz/])
 ![Responsivness](./assets/media/Screenshot%202024-09-18%20125657.png)
 
 
